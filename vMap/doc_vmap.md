@@ -39,7 +39,7 @@
 
 ## 2. Installation :
  - Téléchargez vMap sur [vStore](https://vstore.veremes.net/vstore/login).
- - Dans le `dependencies.json` changer :
+ - Dans le `dependencies.json` changez :
     - `"HOSTNAME": "127.0.0.1"`
     - `POSTGRES_DB": "vmap"`
     - `"POSTGRES_HOST": "127.0.0.1"`
@@ -102,7 +102,7 @@ sudo systemctl restart avahi-daemon
 sudo systemctl restart apache2
 sudo apache2ctl configtest
 ```
-- Lancez ce script dans le même dossier où est l'installé de base de vMap. (Ce script installe vMap, créer un certificat SSL valide pour le local et l'active).
+- Lancez ce script dans le même dossier où est l'`installer` de base de vMap. (Ce script installe vMap, créer un certificat SSL valide pour le local et l'active).
 - `sudo systemctl restart postgresql`
 
 \
@@ -123,13 +123,13 @@ Relancez le script bash ensuite.
     * <erreur>Vous n'avez pas accès</erreur>
     * Etc...
 
-* <sousTitre>Ajouter les droits à votre utilisateur : </sousTitre>
+* <sousTitre>Ajoutez les droits à votre utilisateur : </sousTitre>
     * Lancez pgAdmin ([Installer pgAdmin](#installer-pgadmin-desktop-))
-    * Connecter vous à votre base de donnée localhost
-    * Aller dans les `Login/Group Roles`
-    * Clique droit sur l'utilisateur `u_vitis`
-    * Aller dans `Properties` puis `Membreship`
-    * Ajouter tous les droits un par un qui comme par `vmap_` ou `vitis_`
+    * Connectez vous à votre base de donnée localhost
+    * Allez dans les `Login/Group Roles`
+    * Cliquez droit sur l'utilisateur `u_vitis`
+    * Allez dans `Properties` puis `Membreship`
+    * Ajoutez tous les droits un par un qui commence par `vmap_` ou `vitis_`
     * Ainsi que `pg_read_all_data` et `pg_write_all_data`
     * Cliquez sur save.
   

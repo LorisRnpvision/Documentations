@@ -3,7 +3,7 @@
 ## Installation :
 * `sudo apt-get install postgresql postgresql-contrib`
 
-## Configuration pour vMap :
+## Configuration :
 * `sudo nano /etc/postgres/<version>/main/postgresql.conf`
 * Décommentez et mettez `*` dans `#listen_adresses="localhost"`
 * Remplacez `local all postgres Peer` par `local all postgres trust`

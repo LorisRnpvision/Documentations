@@ -4,7 +4,7 @@
 - `sudo apt install apache`
 - `sudo apt install openssl` (Pour les certificats SSL)
 
-## Ajoutez une clef SSL a un site local :
+## Ajouter une clef SSL a un site local :
 ```bash
 echo "[v3_req]" > /tmp/openssl.cnf 
 echo "basicConstraints=CA:FALSE" >> /tmp/openssl.cnf

@@ -24,6 +24,6 @@ sudo apt install qgis qgis-plugin-grass
 * `DB Manager`
 * `PostGIS > localhost > sélectionnez data_demo_vmap`
 * `Import de couche/fichier`
-* Sélectionnez la couche à importer, mettez les paramètre que vous voulez (ne mettez <warning>pas de majucule ou de caractères spéciaux</warning> dans les noms de tables à par `_`).
+* Sélectionnez la couche à importer, mettez les paramètres que vous voulez (ne mettez <warning>pas de majucule ou de caractères spéciaux</warning> dans les noms de tables à par `_`).
 
 ![DB Manager QGIS](./DB_Manager_QGIS.png)
