@@ -1,10 +1,16 @@
+## Sommaire
+- [Apache2](#apache2)
+  - [Installation](#installation)
+  - [Ajouter une clef SSL a un site local](#ajouter-une-clef-ssl-a-un-site-local)
+  - [Quelques commandes utile :](#quelques-commandes-utile-)
+
 # Apache2
 
-# Installation :
+## Installation
 - `sudo apt install apache`
 - `sudo apt install openssl` (Pour les certificats SSL)
 
-## Ajouter une clef SSL a un site local :
+## Ajouter une clef SSL a un site local
 ```bash
 echo "[v3_req]" > /tmp/openssl.cnf 
 echo "basicConstraints=CA:FALSE" >> /tmp/openssl.cnf

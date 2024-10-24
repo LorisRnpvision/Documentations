@@ -1,5 +1,12 @@
+## Sommaire
+- [GitHub](#github)
+  - [Créer un repositeries](#créer-un-repositeries)
+  - [Les commandes pour modifier le repo en local](#les-commandes-pour-modifier-le-repo-en-local)
+  - [Créer un token](#créer-un-token)
+
+
 # GitHub 
-## 1. Créer un repositeries :
+## Créer un repositeries
 * -> Photo de profil
 * -> Your repositeries
 * -> New
@@ -7,7 +14,7 @@
 * -> Créez
 
 
-## 2. Les commandes pour modifier le repo en local :
+## Les commandes pour modifier le repo en local
 * **Pour récupérer le repo :**
   * `git clone <URL>`
 * **Pour récupérer les modifications :**
@@ -18,7 +25,7 @@
   * `git push`
   * (Se connecter avec ton utilisateur et [token](#3-créer-un-token-))
 
-## 3. Créer un token :
+## Créer un token
 * -> Photo de profil
 * -> Settings
 * -> Developer settings

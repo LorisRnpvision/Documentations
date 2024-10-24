@@ -1,6 +1,11 @@
+## Sommaire
+- [QGIS](#qgis)
+  - [Installer QGIS Desktop](#installer-qgis-desktop)
+  - [Ajouter des couches dans vMap](#ajouter-des-couches-dans-vmap)
+
 # QGIS
 
-## Installer QGIS Desktop :
+## Installer QGIS Desktop
 ```bash
 sudo apt install gnupg software-properties-common
 
@@ -13,7 +18,7 @@ sudo apt update
 sudo apt install qgis qgis-plugin-grass
 ```
 
-## Ajouter des couches dans vMap :
+## Ajouter des couches dans vMap 
 * Lancez QGIS Desktop ([Installer QGIS](#installer-qgis-desktop-))
 * Créez ou ouvrez la/les couche(s) que vous voulez dans vMap
 * Dans l'onglet explorateur, clique droit sur `PostgreSQL`

@@ -28,16 +28,28 @@
         padding-right: 3px;
     }
 </style>
+## Sommaire
+- [vMap](#vmap)
+  - [1. Prérequis](#1-prérequis)
+  - [2. Installation](#2-installation)
+- [Testez dans https://localhost/vmap !](#testez-dans-httpslocalhostvmap-)
+- [Rendre vMap fonctionnel](#rendre-vmap-fonctionnel)
+  - [1. Problème de droits](#1-problème-de-droits)
+  - [2. Ajouter des couches dans vMap](#2-ajouter-des-couches-dans-vmap)
+  - [3. Pour plus d'info sur vMap](#3-pour-plus-dinfo-sur-vmap)
+  - [Installer pgAdmin Desktop](#installer-pgadmin-desktop)
+  - [Installer QGIS Desktop](#installer-qgis-desktop)
 
 # vMap
-## 1. Prérequis :
+
+## 1. Prérequis
 - **Apache 2** ([documentation](./doc_serveur_web.md) dans le repo)
 - **Postgresql** ([documentation](./doc_postgresql.md) dans le repo)
 - **PostGis** :
     - `sudo apt-get install postgresql-<latestVersion>-postgis-<latestVersion>`
 
 
-## 2. Installation :
+## 2. Installation
  - Téléchargez vMap sur [vStore](https://vstore.veremes.net/vstore/login).
  - Dans le `dependencies.json` changez :
     - `"HOSTNAME": "127.0.0.1"`
@@ -117,14 +129,14 @@ Relancez le script bash ensuite.
 
 
 # Rendre vMap fonctionnel
-## 1. Problème de droits :
+## 1. Problème de droits
 * <sousTitre> Si les couches de base de s'affiche pas, ou qu'il y a des problèmes, comme : </sousTitre>
     * <erreur>Erreur pendant la requête</erreur>
     * <erreur>Vous n'avez pas accès</erreur>
     * Etc...
 
 * <sousTitre>Ajoutez les droits à votre utilisateur : </sousTitre>
-    * Lancez pgAdmin ([Installer pgAdmin](#installer-pgadmin-desktop-))
+    * Lancez pgAdmin ([Installer pgAdmin](#installer-pgadmin-desktop))
     * Connectez vous à votre base de donnée localhost
     * Allez dans les `Login/Group Roles`
     * Cliquez droit sur l'utilisateur `u_vitis`
@@ -135,13 +147,13 @@ Relancez le script bash ensuite.
   
 ![Droits u_vitis](./droits_u_vitis.png)
 
-## 2. Ajouter des couches dans vMap :
+## 2. Ajouter des couches dans vMap
 Allez voir la documentation [QGIS](./doc_qgis.md)
 
-## 3. Pour plus d'info sur vMap :
+## 3. Pour plus d'info sur vMap
 Vidéo tuto vMap faites par RnPVision. (contactez nous)
 
-## Installer pgAdmin Desktop :
+## Installer pgAdmin Desktop
 ```bash
 curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
 
@@ -152,5 +164,5 @@ sudo apt update
 sudo apt install pgadmin4-desktop
 ```
 
-## Installer QGIS Desktop :
+## Installer QGIS Desktop
 Allez voir la documentation [QGIS](./doc_qgis.md)

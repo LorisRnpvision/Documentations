@@ -1,9 +1,15 @@
+## Sommaire
+- [Postgresql](#postgresql)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Quelques commandes utile](#quelques-commandes-utile)
+
 # Postgresql
 
-## Installation :
+## Installation
 * `sudo apt-get install postgresql postgresql-contrib`
 
-## Configuration :
+## Configuration
 * `sudo nano /etc/postgres/<version>/main/postgresql.conf`
 * Décommentez et mettez `*` dans `#listen_adresses="localhost"`
 * Remplacez `local all postgres Peer` par `local all postgres trust`
@@ -18,7 +24,7 @@
 * `sudo systemctl restart postgres`
 
 
-## Quelques commandes utile :
+## Quelques commandes utile
 * `sudo systemctl start postgresql`
 * `sudo systemctl restart postgresql`
 * `sudo systemctl status postgresql`
