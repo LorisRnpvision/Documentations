@@ -16,7 +16,7 @@
   * `git add *`
   * `git commit -m "Message sur les modifs effectuées"`
   * `git push`
-  * (Se connecter avec utilisateur, [token](#3-créer-un-token-))
+  * (Se connecter avec ton utilisateur et [token](#3-créer-un-token-))
 
 ## 3. Créer un token :
 * -> Photo de profil

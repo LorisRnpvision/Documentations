@@ -1,6 +1,6 @@
 # Postgresql
 
-## Installation :
+## Installation :
 * `sudo apt-get install postgresql postgresql-contrib`
 
 ## Configuration pour vMap :
@@ -16,3 +16,11 @@
 * Et `# IPv6 local connections: host vmap all ::1/128 md5`
 * Décommenter ou mettez `password_encryption = scram-sha-256`
 * `sudo systemctl restart postgres`
+
+
+## Quelques commandes utile :
+* `sudo systemctl start postgresql`
+* `sudo systemctl restart postgresql`
+* `sudo systemctl status postgresql`
+* Les logs de postgresql :
+  * `sudo tail -f /var/log/postgresql/postgresql-17-main.log`
