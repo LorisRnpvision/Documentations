@@ -38,7 +38,7 @@
 
 
 ## 2. Installation :
- - Télécharger vMap sur [vStore](https://vstore.veremes.net/vstore/login).
+ - Téléchargez vMap sur [vStore](https://vstore.veremes.net/vstore/login).
  - Dans le `dependencies.json` changer :
     - `"HOSTNAME": "127.0.0.1"`
     - `POSTGRES_DB": "vmap"`
@@ -46,7 +46,7 @@
     - `"POSTGRES_PASSWORD": "<Mot de passe postgres>"`
     - `"POSTGRES_PORT": 5432`
     - `"POSTGRES_USER": "postgres"`
- - Créer un script bash et copier ceci :
+ - Créez un script bash et copiez ceci :
 ```bash
 #!bin/bash
 
@@ -102,18 +102,18 @@ sudo systemctl restart avahi-daemon
 sudo systemctl restart apache2
 sudo apache2ctl configtest
 ```
-- Lancez ce script dans le même dossier où est l'installé de base de vMap. (Ce script installe vMap, crée un certificat SSL valide pour le local et l'active).
+- Lancez ce script dans le même dossier où est l'installé de base de vMap. (Ce script installe vMap, créer un certificat SSL valide pour le local et l'active).
 - `sudo systemctl restart postgresql`
 
 \
 **_Les identifiants de base sont : admin, admin_**
 \
-(à changer dans `dependencies.json` tout en bas, puis relancer le script d'installation)
+(à changer dans `dependencies.json` tout en bas, puis relancez le script d'installation)
 
 # Testez dans [https://localhost/vmap](https://localhost/vmap) ! 
-Si problème, supprimer le schéma vmap dans pgAdmin ainsi que tous les rôles liés à vMap (vmap_..., vitis_..., u_vitis et <warning>aucun autre !</warning>). 
+Si problème, supprimez le schéma vmap dans pgAdmin ainsi que tous les rôles liés à vMap (vmap_..., vitis_..., u_vitis et <warning>aucun autre !</warning>). 
 <br>
-Relancer le script bash ensuite. 
+Relancez le script bash ensuite. 
 
 
 # Rendre vMap fonctionnel
@@ -136,7 +136,7 @@ Relancer le script bash ensuite.
 ![Droits u_vitis](./droits_u_vitis.png)
 
 ## 2. Ajouter des couches dans vMap :
-Aller voir la documentation [QGIS](./doc_qgis.md)
+Allez voir la documentation [QGIS](./doc_qgis.md)
 
 ## 3. Pour plus d'info sur vMap :
 Vidéo tuto vMap faites par RnPVision. (contactez nous)
@@ -153,4 +153,4 @@ sudo apt install pgadmin4-desktop
 ```
 
 ## Installer QGIS Desktop :
-Aller voir la documentation [QGIS](./doc_qgis.md)
+Allez voir la documentation [QGIS](./doc_qgis.md)
