@@ -1,3 +1,16 @@
+<style>
+    warning {
+        color:white;
+        background-color: #c07c2c;
+        border-radius: 5px;
+        text-decoration: white underline;
+
+        padding-bottom: 2px;
+        padding-top: 2px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+</style>
 ## Sommaire
 - [QGIS](#qgis)
   - [Installer QGIS Desktop](#installer-qgis-desktop)
@@ -29,6 +42,6 @@ sudo apt install qgis qgis-plugin-grass
 * `DB Manager`
 * `PostGIS > localhost > sélectionnez data_demo_vmap`
 * `Import de couche/fichier`
-* Sélectionnez la couche à importer, mettez les paramètres que vous voulez (ne mettez <warning>pas de majucule ou de caractères spéciaux</warning> dans les noms de tables à par `_`).
+* Sélectionnez la couche à importer, mettez les paramètres que vous voulez (ne mettez <warning>pas de majuscule ou de caractères spéciaux</warning> dans les noms de tables à par `_`).
 
 ![DB Manager QGIS](./DB_Manager_QGIS.png)

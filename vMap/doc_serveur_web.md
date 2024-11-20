@@ -11,6 +11,7 @@
 - `sudo apt install openssl` (Pour les certificats SSL)
 
 ## Ajouter une clef SSL a un site local
+Créez un script bash et collez ceci :
 ```bash
 echo "[v3_req]" > /tmp/openssl.cnf 
 echo "basicConstraints=CA:FALSE" >> /tmp/openssl.cnf
@@ -60,6 +61,11 @@ sudo a2enmod ssl
 sudo systemctl restart avahi-daemon
 sudo systemctl restart apache2
 sudo apache2ctl configtest
+```
+Puis executez ce script : 
+```
+chmod +x <monscript.sh>
+./<monscript.sh>
 ```
 
 ## Quelques commandes utile :

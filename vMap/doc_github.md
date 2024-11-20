@@ -29,7 +29,7 @@
 * -> Photo de profil
 * -> Settings
 * -> Developer settings
-* -> Personnal access tokens
+* -> Personal access tokens
 * -> Tokens (classic)
 * -> Generate new token
 * -> Note (nom du token)
